@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient( #41295A, #2F0743);
+    margin:0;
+    overflow:hidden;
+    font-family:'Ubuntu';
+    font-size: 1.5rem;
+}
+
+#circle1 {
+    height:175vh;
+    width: 100vw;
+    margin-top:-35vh;
+    margin-left:-60vw;
+    background-color:rgba(255, 255, 255, 0.01);
+    border-radius:50%;
+    position:relative;
+}
+
+#circle2 {
+    height:175vh;
+    width: 100vw;
+    margin-left:-5vw;
+    background-color:rgba(255, 255, 255, 0.01);
+    border-radius:50%;
+    position:relative;
+}
+
+#content {
+    width:100%;
+    height:auto;
+    position: absolute;
+    z-index: 1;
+    margin-top:-115vh;
+    text-align: center;
+}
+
+#bold {
+    font: bold;
+}
+
+h1, h2, button {
+    color:white;
+}
+
+h2 {
+    font-size:115%;
+}
+
+input {
+    border:0px solid white;
+    border-radius:0.7vw;
+    padding:5px;
+    width:30vw;
+    height:5vh;
+    color: black;
+}
+
+button {
+    border:0px solid white;
+    border-radius:0.7vw;
+    padding:5px;
+    width:10vw;
+    height:6.6vh;
+    background-color: #904FCC;
+}
